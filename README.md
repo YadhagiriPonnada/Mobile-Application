@@ -1,65 +1,66 @@
-📱 Mobile Application
+# 📱 Mobile Application
+
 A simple mobile application built with React that lets users register, create an account, log in, and view their profile — including a profile picture uploaded from their device's gallery.
 
-🚀 Features
-User Registration
+---
 
-Users can create a new account using a registration form.
+## 🔗 Live Demo
 
-Login
+👉 [Click here to try the app](https://mobile-application-vert.vercel.app/)  
+Hosted on **Vercel** and publicly accessible.
 
-Secure login functionality.
+---
 
-Profile Page
+## 🚀 Features
 
-Displays user details and profile picture.
+- **User Registration**  
+  Users can create a new account using a registration form.
 
-Users can upload a profile picture from their device's gallery.
+- **Login**  
+  Secure login functionality.
 
-🛠️ Tech Stack
-React (Frontend)
+- **Profile Page**  
+  Displays user details and profile picture.  
+  Users can upload a profile picture from their device's gallery.
 
-React Router (Navigation)
+---
 
-CSS (Styling)
+## 🛠️ Tech Stack
 
-JavaScript (Logic)
+- React (Frontend)  
+- React Router (Navigation)  
+- CSS (Styling)  
+- JavaScript (Logic)
 
-📸 Screenshots
-Feature	Screenshot
-Registration	
-Login	
-Profile Page	
+---
 
-📝 Installation
-Clone the repository:
+## 📸 Screenshots
 
-bash
-Copy
-Edit
+| Feature        | Screenshot Placeholder     |
+|----------------|----------------------------|
+| Registration   | _Add screenshot here_      |
+| Login          | _Add screenshot here_      |
+| Profile Page   | _Add screenshot here_      |
+
+---
+
+## 📝 Installation
+
+```bash
 git clone https://github.com/YadhagiriPonnada/Mobile-Application.git
 cd Mobile-Application
-Install dependencies:
-
-bash
-Copy
-Edit
 npm install
-Run the application:
-
-bash
-Copy
-Edit
 npm run dev
-The app will be available at http://localhost:5173.
-
 🔒 Authentication
-User authentication is implemented using a simple local state or context API (optionally, integrate with backend services for production).
+User authentication is implemented using local state or context API.
+(You can enhance it with backend auth in production.)
 
 📸 Profile Picture
-Users can upload a profile picture from their gallery using an <input type="file" /> element.
+Users can upload a profile picture via <input type="file" />
 
-The selected image is displayed on the profile page.
+The image is displayed on the profile page
 
 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+Contributions are welcome!
+Please fork the repository and submit a pull request.
+
